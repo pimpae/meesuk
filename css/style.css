@@ -745,7 +745,9 @@ footer ul li img{
   margin-bottom: 6px;
   text-decoration: underline !important;
 }
-
+.sec-map{
+  height: 480px;
+}
 
 
 
