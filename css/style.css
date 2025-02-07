@@ -606,20 +606,6 @@ footer ul li img{
   height: 16px;
   margin-right: 4px;
 }
-.cover-product{
-  height: 320px; 
-  background-image: url(../images/pro.png); 
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto;
-}
-.cover-about{
-  height: 320px; 
-  background-image: url(../images/abu.png); 
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% auto;
-}
 .sec3.no-bg{
   background-image: none !important;
   background-color: #fff;
@@ -636,7 +622,53 @@ footer ul li img{
 .ab-des img{
   border-radius: 16px;
 }
-
+.cover-product{
+  height: 320px; 
+  background-image: url(../images/pro.png); 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto;
+}
+.cover-about{
+  height: 320px; 
+  background-image: url(../images/abu.png); 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto;
+} 
+.cover-cont{
+  height: 320px; 
+  background-image: url(../images/cont.png); 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto;
+} 
+.sec-con h4{
+  color: var(--main3);
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 16px; 
+}
+.sec-con h1{
+  color: var(--text-black);
+  font-size: 48px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sec-con{
+  background-color: #fff;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.sec-con p{
+  color: var(--text-gray2);
+  font-size: 28px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 /* 
 transition: .33s all ease-out;  
