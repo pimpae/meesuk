@@ -669,6 +669,43 @@ footer ul li img{
   text-align: center;
   margin-bottom: 0px;
 }
+.contact-form{
+  margin-top: 60px;
+}
+.form-bgc{
+  background-color: #FAFAFA;
+  padding: 40px 50px;
+}
+.form-data h3{
+  padding-left: 64px;
+  position: relative;
+  margin-bottom: 8px;
+  color: var(--text-black);
+  font-size: 32px;
+  line-height: 32px;
+} 
+.form-data h3 img{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  left: 0;
+} 
+.form-data h5{
+  padding-left: 64px;
+  margin-bottom: 8px;
+  color: var(--text-gray);
+  font-size: 24px;
+  line-height: 24px;
+} 
+.form-data h6{
+  margin-bottom: 48px;
+  padding-left: 64px; 
+  color: var(--main3);
+  font-size: 24px;
+  line-height: 24px;
+} 
+
 
 /* 
 transition: .33s all ease-out;  
