@@ -675,6 +675,7 @@ footer ul li img{
 .form-bgc{
   background-color: #FAFAFA;
   padding: 40px 50px;
+  border-radius: 16px;
 }
 .form-data h3{
   padding-left: 64px;
@@ -705,6 +706,47 @@ footer ul li img{
   font-size: 24px;
   line-height: 24px;
 } 
+.form-bgc label{ 
+  color: #414651;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+.form-bgc .form-control{ 
+  border-radius: 6px;
+  height: 48px;
+  margin-bottom: 24px;
+  border: 1px solid #D5D7DA;
+  font-size: 24px;
+  line-height: 24px;
+}
+.form-bgc textarea{ 
+  min-height: 128px;
+}
+.form-bgc .form-check{ 
+  color: #414651;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+.form-bgc .btn{ 
+  background-color: var(--main3);
+  color: #fff;
+  width: 100%;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 10px;
+  padding: 12px;
+}
+.form-bgc .form-check a{ 
+  color: #414651;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 6px;
+  text-decoration: underline !important;
+}
+
+
 
 
 /* 
@@ -910,6 +952,10 @@ transition: .33s all ease-out;
     height: 155px;  
     background-size: auto 100% ;
   }
+  .cover-cont{
+    height: 155px;  
+    background-size: auto 100% ;
+  }
   .ab-des .pe-5{
     padding-right: 15px !important;
   }
@@ -924,6 +970,11 @@ transition: .33s all ease-out;
   }
   .ab-des img{
     margin-bottom: 20px !important;
+  }
+  .form-bgc{
+    background-color: #FAFAFA;
+    padding: 20px 20px;
+    border-radius: 16px;
   }
 }
 @media only screen and (min-width: 1025px) { /* PC */
