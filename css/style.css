@@ -606,8 +606,37 @@ footer ul li img{
   height: 16px;
   margin-right: 4px;
 }
+.cover-product{
+  height: 320px; 
+  background-image: url(../images/pro.png); 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto;
+}
+.cover-about{
+  height: 320px; 
+  background-image: url(../images/abu.png); 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto;
+}
+.sec3.no-bg{
+  background-image: none !important;
+  background-color: #fff;
+}
+.sec3 h3{
+  font-size: 32px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.ab-des{
+  margin-top: 60px;
+}
+.ab-des img{
+  border-radius: 16px;
+}
 
- 
 
 /* 
 transition: .33s all ease-out;  
@@ -803,6 +832,29 @@ transition: .33s all ease-out;
   }
   header .nav-link{
     padding-left: 30px;
+  }
+  .cover-product{
+    height: 155px;  
+    background-size: auto 100% ;
+  }
+  .cover-about{
+    height: 155px;  
+    background-size: auto 100% ;
+  }
+  .ab-des .pe-5{
+    padding-right: 15px !important;
+  }
+  .ab-des .ps-5{
+    padding-left: 15px !important;
+  }
+  .od1{
+    order: 1 !important;
+  }
+  .od2{
+    order: 2 !important;
+  }
+  .ab-des img{
+    margin-bottom: 20px !important;
   }
 }
 @media only screen and (min-width: 1025px) { /* PC */
